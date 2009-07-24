@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="ruby">
+  <snippet>
+    <text><![CDATA[before_filter :${1:method_name}$0]]></text>
+    <tag>bf</tag>
+    <description>before_filter ...</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[:only => [:${1:create, }]]></text>
+    <tag>only</tag>
+    <description>:only => [...] ... before_filter condition</description>
+  </snippet>
+</snippets>

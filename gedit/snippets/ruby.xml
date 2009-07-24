@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="ruby">
+  <snippet>
+    <text><![CDATA[begin
+	$1
+rescue ${2:Exception} => ${3:e}
+	$0
+end]]></text>
+    <tag>begin</tag>
+    <description>begin .. rescue .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[class ${1:class_name}
+	$0
+end]]></text>
+    <tag>class</tag>
+    <description>class .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[#
+# ${2:comment}
+#
+def ${1:method_name}
+	$0
+end]]></text>
+    <tag>defc</tag>
+    <description>def .. end with comment</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[def self.${1:method_name}
+	$0
+end]]></text>
+    <tag>defs</tag>
+    <description>def self.method_name .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[def ${1:method_name}
+	$0
+rescue ${2:ErrorClass }=> err
+  
+end]]></text>
+    <tag>defr</tag>
+    <description>def .. rescue .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[do
+	$0
+end]]></text>
+    <tag>do</tag>
+    <description>do .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[do |${1:object}|
+	$0
+end]]></text>
+    <tag>doo</tag>
+    <description>do |object| .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ${1:condition}
+	$2
+else
+	$3
+end]]></text>
+    <tag>ife</tag>
+    <description>if .. else .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ${1:condition}
+	$0
+end]]></text>
+    <tag>if</tag>
+    <description>if .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[elsif ${1:condition}
+  $0]]></text>
+    <tag>elsif</tag>
+    <description>elsif ..</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[unless ${1:condition}
+	$0
+end]]></text>
+    <tag>unless</tag>
+    <description>unless</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[case ${1:object}
+	when ${2:condition}
+		$0
+end]]></text>
+    <tag>case</tag>
+    <description>case .. end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[when ${1:condition}
+	$0]]></text>
+    <tag>when</tag>
+    <description>when</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[else
+  $0]]></text>
+    <tag>else</tag>
+    <description>else ...</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[params[:${1:key}]]]></text>
+    <tag>pm</tag>
+    <description>params</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[flash[:${1:type}] = "${2:message}"]]></text>
+    <tag>fm</tag>
+    <description>flash message</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[redirect_to :action => :${1:action}]]></text>
+    <tag>rt</tag>
+    <description>redirect_to</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[flash.now[:${1:type}] = "${2:message}"]]></text>
+    <tag>fn</tag>
+    <description>flash.now</description>
+  </snippet>
+</snippets>

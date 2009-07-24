@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="ruby">
+  <snippet>
+    <text><![CDATA[:conditions => ${1:rails conditions string or array}]]></text>
+    <tag>cond</tag>
+    <description>:conditions =&gt; ...</description>
+  </snippet>
+</snippets>
